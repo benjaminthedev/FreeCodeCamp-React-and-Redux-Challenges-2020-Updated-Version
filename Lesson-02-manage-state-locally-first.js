@@ -10,7 +10,6 @@ class DisplayMessages extends React.Component {
     handleChange(data) {
         this.setState({
             input: data.target.value,
-            messages: this.state.messages
         })
     }
 
